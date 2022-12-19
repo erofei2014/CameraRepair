@@ -1,0 +1,5 @@
+.page {
+  @include pageBasicSettings;
+  background-color: $backgroundColor;
+  color: $fontColorGrey;
+}

@@ -1,0 +1,6 @@
+.logo__brand-name {
+  @include fontStyle(400, 22px, 30px, left);
+  color: $fontColorWhite;
+  margin: $zeroSize;
+  padding: $zeroSize;
+}

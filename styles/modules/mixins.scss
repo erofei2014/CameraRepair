@@ -1,0 +1,30 @@
+@mixin pageBasicSettings {
+  margin: 0 auto;
+  max-width: 1440px;
+  font-family: 'Inter', Arial, sans-serif;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@mixin listStilesDelete {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin fontStyle($weight, $size, $line, $align) {
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line;
+  text-align: $align;
+}
+
+@mixin flexRow($gap) {
+  display: flex;
+  flex-direction: row;
+  gap: $gap;
+}

@@ -5,3 +5,23 @@
 @import './modules/variables';
 @import './modules/functions';
 @import './modules/mixins';
+
+@import './modules/blocks/page/page';
+
+@import './modules/blocks/header/header';
+@import './modules/blocks/header/__title/heade__title';
+@import './modules/blocks/header/__title/_big/header__title_big';
+
+@import './modules/blocks/logo/logo';
+@import './modules/blocks/logo/__brand-name/logo__brand-name';
+@import './modules/blocks/logo/__box/logo__box';
+@import './modules/blocks/logo/__box-text/logo__box-text';
+
+@import './modules/blocks/form-email/form-email';
+@import './modules/blocks/form-email/__fieldset/form-email__feildset';
+@import './modules/blocks/form-email/__input-field/form-email__input-field';
+@import './modules/blocks/form-email/__confirm-button/form-email__confirm-button';
+@import './modules/blocks/form-email/__submit-pic/form-email__submit-pic';
+@import './modules/blocks/form-email/__description/form-email__description';
+
+@import './modules/blocks/content/content';
