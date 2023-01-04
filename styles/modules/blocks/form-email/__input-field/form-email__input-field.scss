@@ -22,3 +22,9 @@
   background-color: rgba(142, 142, 152, 0.3);
   outline: none;
  }
+
+ @media screen and (max-width: 590px) {
+  .form-email__input-field {
+    min-width: calc(100% - 51px);
+  }
+}

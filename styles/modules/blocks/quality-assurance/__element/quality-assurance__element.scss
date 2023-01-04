@@ -5,8 +5,17 @@
   background-color: #1C1C1E;
   border-radius: 10px;
   transition: .3s;
+  min-height: 153px;
+  box-sizing: border-box;
 }
 
 .quality-assurance__element:hover {
   background-color: #232327;
+}
+
+@media screen and (max-width: 590px) {
+  .quality-assurance__element {
+    min-height: 148px;
+    box-sizing: border-box;
+  }
 }

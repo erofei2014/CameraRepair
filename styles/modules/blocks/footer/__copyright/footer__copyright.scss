@@ -6,3 +6,17 @@
   @include fontStyle(400, 12px, 18px, right);
   color: #47474c;
 }
+
+@media screen and (max-width: 990px) {
+  .footer__copyright {
+    position: static;
+    text-align: left;
+    margin-top: 60px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .footer__copyright {
+    margin-top: 40px;
+  }
+}

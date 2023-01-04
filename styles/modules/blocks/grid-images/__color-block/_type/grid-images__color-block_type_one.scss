@@ -2,4 +2,20 @@
   background-color: #FFD233;
   grid-column-start: 2;
   grid-column-end: 4;
+  height: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+  .grid-images__color-block_type_one {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .grid-images__color-block_type_one {
+    grid-column-start: auto;
+    grid-column-end: auto;
+    height: 67px;
+  }
 }

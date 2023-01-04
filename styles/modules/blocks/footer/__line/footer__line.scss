@@ -3,3 +3,9 @@
   width: 100%;
   margin-bottom: 60px;
 }
+
+@media screen and (max-width: 590px) {
+  .footer__line {
+    margin-bottom: 30px;
+  }
+}

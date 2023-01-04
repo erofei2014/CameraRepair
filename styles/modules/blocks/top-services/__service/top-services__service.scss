@@ -10,3 +10,9 @@
 .top-services__service:hover {
   background-color: #232327;
 }
+
+@media screen and (max-width: 590px) {
+  .top-services__service {
+    padding: 20px;
+  }
+}
