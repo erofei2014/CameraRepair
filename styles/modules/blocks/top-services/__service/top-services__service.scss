@@ -1,0 +1,12 @@
+.top-services__service {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1e;
+  border-radius: 16px;
+  padding: 40px;
+  transition: .3s;
+}
+
+.top-services__service:hover {
+  background-color: #232327;
+}

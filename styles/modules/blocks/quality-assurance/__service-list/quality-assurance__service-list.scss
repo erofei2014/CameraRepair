@@ -1,0 +1,7 @@
+.quality-assurance__service-list {
+  @include listStilesDelete;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

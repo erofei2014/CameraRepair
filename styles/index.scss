@@ -5,3 +5,61 @@
 @import './modules/variables';
 @import './modules/functions';
 @import './modules/mixins';
+
+@import './modules/blocks/page/page';
+
+@import './modules/blocks/header/header';
+@import './modules/blocks/header/__title/header__title';
+@import './modules/blocks/header/__title/_big/header__title_big';
+
+@import './modules/blocks/logo/logo';
+@import './modules/blocks/logo/__brand-name/logo__brand-name';
+@import './modules/blocks/logo/__box/logo__box';
+@import './modules/blocks/logo/__box-text/logo__box-text';
+@import './modules/blocks/logo/_type/logo_type_footer';
+
+@import './modules/blocks/form-email/form-email';
+@import './modules/blocks/form-email/__fieldset/form-email__fieldset';
+@import './modules/blocks/form-email/__input-field/form-email__input-field';
+@import './modules/blocks/form-email/__confirm-button/form-email__confirm-button';
+@import './modules/blocks/form-email/__submit-pic/form-email__submit-pic';
+@import './modules/blocks/form-email/__description/form-email__description';
+@import './modules/blocks/form-email/__description/_type/form-email__description_type_footer';
+
+@import './modules/blocks/content/content';
+
+@import './modules/blocks/grid-images/grid-images';
+@import './modules/blocks/grid-images/__photo-block/grid-images__photo-block';
+@import './modules/blocks/grid-images/__photo-block/_type/grid-images__photo-block_type_one';
+@import './modules/blocks/grid-images/__photo-block/_type/grid-images__photo-block_type_two';
+@import './modules/blocks/grid-images/__color-block/grid-images__color-block';
+@import './modules/blocks/grid-images/__color-block/_type/grid-images__color-block_type_one';
+@import './modules/blocks/grid-images/__color-block/_type/grid-images__color-block_type_two';
+
+@import './modules/blocks/about-us/about-us';
+@import './modules/blocks/about-us/__description/about-us__description';
+@import './modules/blocks/about-us/__moto/about-us__moto';
+
+@import './modules/blocks/top-services/top-services';
+@import './modules/blocks/top-services/__service/top-services__service';
+@import './modules/blocks/top-services/__type/top-services__type';
+@import './modules/blocks/top-services/__name/top-services__name';
+@import './modules/blocks/top-services/__description/top-services__description';
+@import './modules/blocks/top-services/__price/top-services__price';
+
+@import './modules/blocks/quality-assurance/quality-assurance';
+@import './modules/blocks/quality-assurance/__title/quality-assurance__title';
+@import './modules/blocks/quality-assurance/__service-list/quality-assurance__service-list';
+@import './modules/blocks/quality-assurance/__element/quality-assurance__element';
+@import './modules/blocks/quality-assurance/__element-title/quality-assurance__element-title';
+@import './modules/blocks/quality-assurance/__element-description/quality-assurance__element-description';
+
+@import './modules/blocks/support-us/support-us';
+@import './modules/blocks/support-us/__title/support-us__title';
+@import './modules/blocks/support-us/__description/support-us__description';
+
+@import './modules/blocks/help-button/help-button';
+
+@import './modules/blocks/footer/footer';
+@import './modules/blocks/footer/__line/footer__line';
+@import './modules/blocks/footer/__copyright/footer__copyright';

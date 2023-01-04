@@ -1,0 +1,6 @@
+.top-services__price {
+  @include listStilesDelete;
+  margin-top: 40px;
+  @include fontStyle(400, 14px, 14px, left);
+  color: $fontColorGreen;
+}

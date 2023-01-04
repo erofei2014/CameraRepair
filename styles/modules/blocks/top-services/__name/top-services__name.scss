@@ -1,0 +1,6 @@
+.top-services__name {
+  @include listStilesDelete;
+  margin: 20px 0 40px;
+  @include fontStyle(400, 32px, 32px, left);
+  color: $fontColorWhite;
+}

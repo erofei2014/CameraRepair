@@ -1,0 +1,5 @@
+.form-email__fieldset {
+  @include listStilesDelete;
+  border: none;
+  display: flex;
+}

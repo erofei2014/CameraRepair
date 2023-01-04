@@ -1,0 +1,8 @@
+.footer__copyright {
+  position: absolute;
+  right: 160px;
+  bottom: 60px;
+  @include listStilesDelete;
+  @include fontStyle(400, 12px, 18px, right);
+  color: #47474c;
+}
