@@ -1,0 +1,6 @@
+.logo__box-text {
+  @include listStilesDelete;
+  @include fontStyle(400, 12px, 12px, center);
+  color: $backgroundColor;
+  margin: auto;
+}

@@ -1,0 +1,6 @@
+.header__title {
+  @include listStilesDelete;
+  @include fontStyle(400, 80px, 70px, left);
+  color: $fontColorWhite;
+  padding: 60px 0 230px;
+}

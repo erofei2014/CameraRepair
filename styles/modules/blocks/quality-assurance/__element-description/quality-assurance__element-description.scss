@@ -1,0 +1,6 @@
+.quality-assurance__element-description {
+  @include listStilesDelete;
+  @include fontStyle(400, 15px, 19px, left);
+  color: $fontColorGrey;
+  margin-top: 38px;
+}

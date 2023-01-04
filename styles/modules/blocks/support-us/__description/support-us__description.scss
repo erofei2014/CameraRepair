@@ -1,0 +1,6 @@
+.support-us__description {
+  @include listStilesDelete;
+  @include fontStyle(400, 32px, 40px, left);
+  color: $fontColorGrey;
+  margin-top: 50px;
+}

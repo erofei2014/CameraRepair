@@ -1,0 +1,6 @@
+.about-us__moto {
+  @include listStilesDelete;
+  margin-top: 60px;
+  @include fontStyle(400, 32px, 40px, left);
+  color: $fontColorWhite;
+}

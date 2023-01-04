@@ -1,0 +1,12 @@
+.help-button {
+  padding: 13px 30px;
+  min-width: 306px;
+  min-height: 50px;
+  border: none;
+  border-radius: 8px;
+  background-color: #47474c;
+  @include fontStyle(400, 14px, 24px, center);
+  letter-spacing: 0.375px;
+  color: $fontColorWhite;
+  cursor: pointer;
+}

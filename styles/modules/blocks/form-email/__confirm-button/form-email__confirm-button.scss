@@ -1,0 +1,11 @@
+.form-email__confirm-button {
+  background-color: #47474C;
+  border: none;
+  min-width: 221px;
+  border-radius: 0 8px 8px 0;
+  padding: 13px 14px 13px 16px;
+  @include fontStyle(400, 14px, 24px, left);
+  color: $fontColorWhite;
+  letter-spacing: 0.375px;
+  cursor: pointer;
+}
