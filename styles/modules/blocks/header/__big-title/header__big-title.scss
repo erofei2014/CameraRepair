@@ -1,0 +1,20 @@
+.header__big-title {
+  display: block;
+  font-size: 112px;
+  line-height: 112px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+  .header__big-title {
+    margin-bottom: 0;
+    @include fontStyle(400, 70px, 90px, left);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .header__big-title {
+    margin-bottom: 10px;
+    @include fontStyle(400, 50px, 60px, left);
+  }
+}

@@ -10,7 +10,7 @@
 
 @import './modules/blocks/header/header';
 @import './modules/blocks/header/__title/header__title';
-@import './modules/blocks/header/__title/_big/header__title_big';
+@import './modules/blocks/header/__big-title/header__big-title';
 
 @import './modules/blocks/logo/logo';
 @import './modules/blocks/logo/__brand-name/logo__brand-name';
@@ -21,7 +21,9 @@
 @import './modules/blocks/form-email/form-email';
 @import './modules/blocks/form-email/__fieldset/form-email__fieldset';
 @import './modules/blocks/form-email/__input-field/form-email__input-field';
+@import './modules/blocks/form-email/__input-field/_type/form-email__input-field_type_header';
 @import './modules/blocks/form-email/__confirm-button/form-email__confirm-button';
+@import './modules/blocks/form-email/__confirm-button-text/form-email__confirm-button-text';
 @import './modules/blocks/form-email/__submit-pic/form-email__submit-pic';
 @import './modules/blocks/form-email/__description/form-email__description';
 @import './modules/blocks/form-email/__description/_type/form-email__description_type_footer';

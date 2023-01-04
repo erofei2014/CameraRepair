@@ -10,3 +10,11 @@
   color: $fontColorWhite;
   cursor: pointer;
 }
+
+@media screen and (max-width: 590px) {
+  .help-button {
+    min-width: 100%;
+    @include fontStyle(400, 12px, 18px, center);
+    padding: 16px 28px;
+  }
+}
