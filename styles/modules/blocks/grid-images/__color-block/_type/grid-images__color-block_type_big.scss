@@ -1,4 +1,4 @@
-.grid-images__color-block_type_two {
+.grid-images__color-block_type_big {
   background-color: #25E197;
   grid-column-start: 1;
   grid-column-end: 3;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .grid-images__color-block_type_two {
+  .grid-images__color-block_type_big {
     grid-column-start: 1;
     grid-column-end: 2;
   }
@@ -14,7 +14,7 @@
 
 
 @media screen and (max-width: 590px) {
-  .grid-images__color-block_type_two {
+  .grid-images__color-block_type_big {
     grid-column-start: auto;
     grid-column-end: auto;
     height: 124px;

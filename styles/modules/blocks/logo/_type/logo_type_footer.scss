@@ -1,9 +1,12 @@
 .logo_type_footer {
   margin-bottom: 84px;
+  border-top: 2px solid #151515;
+  padding-top: 60px;
 }
 
 @media screen and (max-width: 590px) {
   .logo_type_footer {
     margin-bottom: 184px;
+    padding-top: 30px;
   }
 }

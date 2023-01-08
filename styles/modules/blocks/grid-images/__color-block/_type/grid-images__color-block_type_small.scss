@@ -1,4 +1,4 @@
-.grid-images__color-block_type_one {
+.grid-images__color-block_type_small {
   background-color: #FFD233;
   grid-column-start: 2;
   grid-column-end: 4;
@@ -6,14 +6,14 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .grid-images__color-block_type_one {
+  .grid-images__color-block_type_small {
     grid-column-start: 3;
     grid-column-end: 4;
   }
 }
 
 @media screen and (max-width: 590px) {
-  .grid-images__color-block_type_one {
+  .grid-images__color-block_type_small {
     grid-column-start: auto;
     grid-column-end: auto;
     height: 67px;

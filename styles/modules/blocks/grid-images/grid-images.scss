@@ -9,6 +9,7 @@
   .grid-images {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: minmax(230px, 230px) minmax(344px, 344px);
+    padding: 20px 60px 20px;
   }
 }
 

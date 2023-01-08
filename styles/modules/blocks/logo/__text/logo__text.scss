@@ -1,0 +1,12 @@
+.logo__text {
+  @include listStilesDelete;
+  @include fontStyle(400, 12px, 12px, center);
+  color: $backgroundColor;
+  background-color: $fontColorGreen;
+  width: 99px;
+  height: 20px;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 4px 8px;
+  box-sizing: border-box;
+}
