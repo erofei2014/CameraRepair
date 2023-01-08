@@ -1,0 +1,22 @@
+.grid-images {
+  padding: 60px 30px;
+  display: grid;
+  grid-template-columns: minmax(448px, 448px) 1fr minmax(455px, 730px);
+  gap: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .grid-images {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(230px, 230px) minmax(344px, 344px);
+    padding: 20px 60px 20px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .grid-images {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto auto;
+    padding: 20px;
+  }
+}

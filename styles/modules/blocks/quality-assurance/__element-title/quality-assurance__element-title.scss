@@ -1,0 +1,5 @@
+.quality-assurance__element-title {
+  @include listStilesDelete;
+  @include fontStyle(500, 18px, 18px, left);
+  color: #eaeaf0;
+}

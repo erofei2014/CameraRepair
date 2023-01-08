@@ -1,0 +1,14 @@
+.top-services__name {
+  @include listStilesDelete;
+  margin: 20px 0 40px;
+  @include fontStyle(400, 32px, 32px, left);
+  color: $fontColorWhite;
+}
+
+@media screen and (max-width: 590px) {
+  .top-services__name {
+    @include fontStyle(400, 24px, 32px, left);
+    margin-top: 10px;
+    margin-bottom: 28px;
+  }
+}

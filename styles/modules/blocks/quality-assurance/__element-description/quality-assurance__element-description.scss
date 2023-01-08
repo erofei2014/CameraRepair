@@ -1,0 +1,13 @@
+.quality-assurance__element-description {
+  @include listStilesDelete;
+  @include fontStyle(400, 15px, 19px, left);
+  color: $fontColorGrey;
+  margin-top: 38px;
+}
+
+@media screen and (max-width: 590px) {
+  .quality-assurance__element-description {
+    @include fontStyle(400, 12px, 18px, left);
+    margin-top: 36px;
+  }
+}

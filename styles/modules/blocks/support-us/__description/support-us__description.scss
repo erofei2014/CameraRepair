@@ -1,0 +1,20 @@
+.support-us__description {
+  @include listStilesDelete;
+  @include fontStyle(400, 32px, 40px, left);
+  color: $fontColorGrey;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 990px) {
+  .support-us__description {
+    @include fontStyle(400, 20px, 30px, left);
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .support-us__description {
+    @include fontStyle(400, 12px, 18px, left);
+    margin-top: 30px;
+  }
+}

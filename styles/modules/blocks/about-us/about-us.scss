@@ -1,0 +1,16 @@
+.about-us {
+  padding: 60px 160px;
+}
+
+@media screen and (max-width: 990px) {
+  .about-us {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .about-us {
+    padding: 40px 20px 30px;
+  }
+}

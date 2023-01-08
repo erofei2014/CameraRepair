@@ -1,0 +1,16 @@
+.support-us {
+  padding: 60px 160px;
+}
+
+@media screen and (max-width: 990px) {
+  .support-us {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .support-us {
+    padding: 40px 20px 30px;
+  }
+}

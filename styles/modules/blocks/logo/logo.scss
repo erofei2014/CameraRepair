@@ -1,0 +1,5 @@
+.logo {
+  margin: $zeroSize;
+  @include flexRow(20px);
+  align-items: center;
+}

@@ -1,0 +1,5 @@
+.top-services__type {
+  @include listStilesDelete;
+  @include fontStyle(400, 18px, 18px, left);
+  color: $fontColorGrey;
+}

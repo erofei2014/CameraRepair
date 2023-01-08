@@ -1,0 +1,17 @@
+@media screen and (max-width: 990px) {
+  .form-email__input-field_type_header {
+    min-width: calc(100% - 221px);
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .form-email__input-field_type_header {
+    min-width: calc(100% - 142px);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .form-email__input-field_type_header {
+    min-width: calc(100% - 51px);
+  }
+}

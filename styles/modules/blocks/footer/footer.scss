@@ -1,0 +1,21 @@
+.footer {
+  padding: 180px 160px 60px;
+  position: relative;
+}
+
+@media screen and (max-width: 990px) {
+  .footer {
+    position: static;
+    padding-top: 150px;
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .footer {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+}

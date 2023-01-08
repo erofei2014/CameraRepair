@@ -1,0 +1,19 @@
+.top-services__service {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c1c1e;
+  border-radius: 16px;
+  padding: 40px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.top-services__service:hover {
+  background-color: #232327;
+}
+
+@media screen and (max-width: 590px) {
+  .top-services__service {
+    padding: 20px;
+  }
+}

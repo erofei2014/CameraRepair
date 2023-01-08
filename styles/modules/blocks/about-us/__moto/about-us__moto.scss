@@ -1,0 +1,19 @@
+.about-us__moto {
+  @include listStilesDelete;
+  margin-top: 60px;
+  @include fontStyle(400, 32px, 40px, left);
+  color: $fontColorWhite;
+}
+
+@media screen and (max-width: 990px) {
+  .about-us__moto {
+    @include fontStyle(400, 20px, 30px, left);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .about-us__moto {
+    margin-top: 20px;
+    @include fontStyle(400, 12px, 18px, left);
+  }
+}

@@ -1,0 +1,27 @@
+.form-email__confirm-button {
+  background-color: #47474C;
+  border: none;
+  width: 221px;
+  border-radius: 0 8px 8px 0;
+  padding: 13px;
+  max-height: 50px;
+  cursor: pointer;
+  @include fontStyle(400, 14px, 24px, left);
+  color: $fontColorWhite;
+  letter-spacing: 0.375px;
+}
+
+@media screen and (max-width: 690px) {
+  .form-email__confirm-button {
+    @include fontStyle(400, 8px, 24px, left);
+    width: auto;
+    min-width: 147px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .form-email__confirm-button {
+    min-width: 51px;
+    @include fontStyle(400, 0, 0, center);
+  }
+}
