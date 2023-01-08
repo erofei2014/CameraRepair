@@ -14,8 +14,7 @@
 
 @import './modules/blocks/logo/logo';
 @import './modules/blocks/logo/__brand-name/logo__brand-name';
-@import './modules/blocks/logo/__box/logo__box';
-@import './modules/blocks/logo/__box-text/logo__box-text';
+@import './modules/blocks/logo/__text/logo__text';
 @import './modules/blocks/logo/_type/logo_type_footer';
 
 @import './modules/blocks/form-email/form-email';
@@ -32,11 +31,11 @@
 
 @import './modules/blocks/grid-images/grid-images';
 @import './modules/blocks/grid-images/__photo-block/grid-images__photo-block';
-@import './modules/blocks/grid-images/__photo-block/_type/grid-images__photo-block_type_one';
-@import './modules/blocks/grid-images/__photo-block/_type/grid-images__photo-block_type_two';
+@import './modules/blocks/grid-images/__photo-block/_type/grid-images__photo-block_type_small';
+@import './modules/blocks/grid-images/__photo-block/_type/grid-images__photo-block_type_big';
 @import './modules/blocks/grid-images/__color-block/grid-images__color-block';
-@import './modules/blocks/grid-images/__color-block/_type/grid-images__color-block_type_one';
-@import './modules/blocks/grid-images/__color-block/_type/grid-images__color-block_type_two';
+@import './modules/blocks/grid-images/__color-block/_type/grid-images__color-block_type_small';
+@import './modules/blocks/grid-images/__color-block/_type/grid-images__color-block_type_big';
 
 @import './modules/blocks/about-us/about-us';
 @import './modules/blocks/about-us/__description/about-us__description';
@@ -58,10 +57,8 @@
 
 @import './modules/blocks/support-us/support-us';
 @import './modules/blocks/support-us/__title/support-us__title';
+@import './modules/blocks/support-us/__help-button/support-us__help-button';
 @import './modules/blocks/support-us/__description/support-us__description';
 
-@import './modules/blocks/help-button/help-button';
-
 @import './modules/blocks/footer/footer';
-@import './modules/blocks/footer/__line/footer__line';
 @import './modules/blocks/footer/__copyright/footer__copyright';

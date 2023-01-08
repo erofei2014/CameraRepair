@@ -1,17 +1,17 @@
-.grid-images__photo-block_type_one {
+.grid-images__photo-block_type_big {
   object-fit: cover;
   width: 100%;
 }
 
 @media screen and (max-width: 1280px) {
-  .grid-images__photo-block_type_one {
-    grid-column-start: 1;
-    grid-column-end: 3;
+  .grid-images__photo-block_type_big {
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 }
 
 @media screen and (max-width: 590px) {
-  .grid-images__photo-block_type_one {
+  .grid-images__photo-block_type_big {
     grid-column-start: auto;
     grid-column-end: auto;
   }
